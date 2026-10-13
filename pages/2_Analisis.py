@@ -12,14 +12,6 @@ st.set_page_config(
 # -----------------------------
 st.title("Diagnóstico de Conectividad y Resiliencia Aérea")
 
-st.markdown(
-    """
-    Esta página conecta los resultados exploratorios con la pregunta central del proyecto:  
-    **¿Cómo ha evolucionado el flujo de pasajeros y cuáles rutas son los nodos más estables actualmente (2022–2026)?**  
-    A través de la interacción de variables de **ruta y operador ($X$)**, **volumen ($Y$)** y **comportamiento temporal ($T$)**, 
-    evaluamos la concentración y la capacidad de la red para sostener conexiones regulares y predecibles.
-    """
-)
 
 # Carga de datos base
 df = pd.read_csv("data/processed/datos_limpios.csv")

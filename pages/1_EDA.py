@@ -12,12 +12,6 @@ st.set_page_config(
 # -----------------------------
 st.title("Análisis Exploratorio de Datos (EDA)")
 
-st.write(
-    "Esta sección explora las propiedades estadísticas y estructurales del dataset "
-    "mediante las 6 preguntas analíticas de visualización: distribuciones, comparaciones "
-    "entre grupos, relaciones numéricas, temporalidad, espacialidad y múltiples dimensiones."
-)
-
 df = pd.read_csv("data/processed/datos_limpios.csv")
 
 # Tipificación de variables numéricas
